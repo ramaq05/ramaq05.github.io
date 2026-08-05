@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed Qamar Zulqarnain – Academic Homepage</title>
+  <meta name="description"
+    content="Academic homepage of Syed Qamar Zulqarnain, PhD Scholar at UST / KIOST Busan, working on AI, Computer Networking, Remote Driving, and Tele-Operation." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">Syed Qamar Zulqarnain</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="research-projects.html">Research Projects</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation"
+        onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- LEFT: Profile Sidebar -->
+    <aside class="profile-sidebar">
+      <div class="profile-photo-wrapper">
+        <img src="qamar.png" alt="Syed Qamar Zulqarnain" class="profile-photo" />
+      </div>
+      <h1 class="profile-name">Syed Qamar Zulqarnain</h1>
+      <p class="profile-role">PhD Scholar</p>
+      <p class="profile-affil">UST(KIOST, Busan)</p>
+      <p class="profile-research-line"> Marine Anomaly Detection| Deep Learning for Coastal Engineering| Remote
+        Sensing and Ocean Data Analysis | AI for Ocean-Wave Forecasting</p>
+
+      <div class="profile-links">
+        <a href="mailto:qamarzulqarnain@kioist.ac.kr" class="profile-link">
+          <i class="fas fa-envelope"></i> qamarzulqarnain@kioist.ac.kr
+        </a>
+        <a href="https://github.com/ramaq05" target="_blank" class="profile-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/syed-qamar-zulqarnain-008b8a181/" target="_blank" class="profile-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </aside>
+
+    <!-- RIGHT: Content Panel -->
+    <section class="content-panel">
+
+      <!-- About -->
+      <div class="card about-card">
+        <h2 class="card-title">About Me</h2>
+        <p>
+          I am a <strong>PhD Scholar</strong> at the University of Science and Technology (UST) / Korea Institute of
+          Ocean Science and Technology (KIOST), Busan, South Korea. My research interests span <strong>Artificial
+            Intelligence</strong>, <strong>Coastal Engineering </strong>, <strong>Anomaly Detection
+          </strong>, and
+          <strong>Ocean Data Analysis</strong>. I focus on edge AI, Marine Wave Anomaly Detection, Fog Monitoring and
+          Physics-Guided Multi-Task Learning.
+        </p>
+        <a href="https://scholar.google.com/citations?user=8hiHtL0AAAAJ&hl=en" target="_blank" class="cv-link">
+          <i class="fas fa-graduation-cap"></i> Google Scholar Profile
+        </a>
+      </div>
+
+      <!-- Education + Honors -->
+      <div class="card two-col-card">
+        <div class="two-col-section">
+          <h3 class="section-label">Education</h3>
+
+          <div class="edu-item">
+            <div class="edu-icon-wrap">
+              <img src="ustlogo.jpg" alt="UST Logo" class="edu-logo" />
+            </div>
+            <div class="edu-info">
+              <strong>University of Science and Technology (UST)</strong>
+              <span class="edu-degree">PhD Scholar</span>
+              <span class="edu-date">Present</span>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-icon-wrap">
+              <img src="kookminlogo.png" alt="Kookmin University Logo" class="edu-logo" />
+            </div>
+            <div class="edu-info">
+              <strong>Kookmin University</strong>
+              <span class="edu-degree">Master of Engineering in Computer Science</span>
+              <span class="edu-date">2020 – 2021</span>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-icon-wrap">
+              <img src="COMSATSlogo.jpg" alt="COMSATS Logo" class="edu-logo" />
+            </div>
+            <div class="edu-info">
+              <strong>COMSATS University, Islamabad</strong>
+              <span class="edu-degree">Bachelor of Science in Software Engineering</span>
+              <span class="edu-date">2014 – 2018</span>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="two-col-section">
+          <h3 class="section-label">Honors &amp; Awards</h3>
+          <ul class="honors-list">
+            <li>
+              <span class="honor-bullet">•</span>
+              <span class="honor-text">Applied Sciences Publication</span>
+              <span class="honor-year">2021</span>
+            </li>
+            <li>
+              <span class="honor-bullet">•</span>
+              <span class="honor-text">IEEE ICOIN Conference Paper</span>
+              <span class="honor-year">2021</span>
+            </li>
+            <li>
+              <span class="honor-bullet">•</span>
+              <span class="honor-text">IEEE CIIS Conference Paper</span>
+              <span class="honor-year">2026</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Selected Publications -->
+      <div class="card">
+        <h3 class="section-label pub-section-label">
+          Selected Publications
+          <a href="publications.html" class="view-all-link">view all &raquo;</a>
+        </h3>
+
+        <!-- Pub 1 -->
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <div class="pub-thumb-placeholder"><i class="fas fa-network-wired"></i></div>
+          </div>
+          <div class="pub-info">
+            <p class="pub-title">Selecting Remote Driving Locations for Latency Sensitive Reliable Tele-Operation</p>
+            <p class="pub-authors">SQ Zulqarnain, S Lee</p>
+            <p class="pub-venue">Applied Sciences 11 (21), 9799 — 2021</p>
+            <div class="pub-tags">
+              <a href="https://scholar.google.com/citations?user=8hiHtL0AAAAJ&hl=en" target="_blank"
+                class="tag-link">[Scholar]</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pub 2 -->
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <div class="pub-thumb-placeholder"><i class="fas fa-car"></i></div>
+          </div>
+          <div class="pub-info">
+            <p class="pub-title">An efficient driver selection algorithm for controlling multiple vehicles in remote
+              driving</p>
+            <p class="pub-authors">SQ Zulqarnain, S Lee</p>
+            <p class="pub-venue">ICOIN 2021, pp. 20-23 — 2021</p>
+            <div class="pub-tags">
+              <a href="https://scholar.google.com/citations?user=8hiHtL0AAAAJ&hl=en" target="_blank"
+                class="tag-link">[Scholar]</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pub 3 -->
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <div class="pub-thumb-placeholder"><i class="fas fa-microchip"></i></div>
+          </div>
+          <div class="pub-info">
+            <p class="pub-title">Design of a 8-Stage RF Step Attenuator for Variable Gain Amplifiers</p>
+            <p class="pub-authors">K Hussain, SQ Zulqarnain, E Muzammal, M Ali</p>
+            <p class="pub-venue">IEEE CIIS 2026 — 2026</p>
+            <div class="pub-tags">
+              <a href="https://scholar.google.com/citations?user=8hiHtL0AAAAJ&hl=en" target="_blank"
+                class="tag-link">[Scholar]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <span>Last updated: Aug 2026</span>
+      <span>Personal academic homepage powered by GitHub Pages.</span>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

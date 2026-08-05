@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Projects – Syed Qamar Zulqarnain</title>
+  <meta name="description" content="Research projects by Syed Qamar Zulqarnain — PhD Scholar at UST/KIOST Busan." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-brand">Syed Qamar Zulqarnain</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="research-projects.html" class="active">Research Projects</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+
+<!-- MAIN -->
+<main class="pub-page-main">
+  <h1 class="page-title">Research Projects</h1>
+
+  <!-- Project 1 -->
+  <div class="project-card">
+    <h2 class="project-title">Latency-Aware Remote Driving Location Selection for Tele-Operation</h2>
+    <p class="project-desc">
+      Developed a framework for selecting optimal remote driving locations by accounting for network latency to ensure
+      reliable and safe tele-operated vehicle control. The system evaluates real-time network quality metrics and
+      adaptively assigns control to the lowest-latency operator location.
+    </p>
+    <ul class="project-bullets">
+      <li>Modeled latency sensitivity for human-operated autonomous vehicles.</li>
+      <li>Designed algorithms to select geographically distributed driving centers based on real-time RTT measurements.</li>
+      <li>Validated reliability improvements under degraded network conditions.</li>
+      <li>Published in Applied Sciences (2021), cited 22 times.</li>
+    </ul>
+    <div class="project-tags">
+      <span class="ptag">Tele-Operation</span>
+      <span class="ptag">Networking</span>
+      <span class="ptag">Autonomous Vehicles</span>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-card">
+    <h2 class="project-title">Efficient Driver Assignment for Multi-Vehicle Remote Driving</h2>
+    <p class="project-desc">
+      Designed an efficient driver selection algorithm for scenarios where a single remote driver must control multiple
+      vehicles simultaneously, optimizing task allocation based on priority, urgency, and system state.
+    </p>
+    <ul class="project-bullets">
+      <li>Formulated the multi-vehicle control assignment as an optimization problem.</li>
+      <li>Proposed a real-time scheduling algorithm with low computational overhead.</li>
+      <li>Evaluated system responsiveness and safety under varying traffic conditions.</li>
+      <li>Presented at IEEE ICOIN 2021, cited 10 times.</li>
+    </ul>
+    <div class="project-tags">
+      <span class="ptag">Remote Driving</span>
+      <span class="ptag">Scheduling</span>
+      <span class="ptag">AI</span>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card">
+    <h2 class="project-title">RF Step Attenuator Design for Variable Gain Amplifier Systems</h2>
+    <p class="project-desc">
+      Designed an 8-stage RF step attenuator for use in variable gain amplifier circuits, targeting precision signal
+      control for wireless communication systems.
+    </p>
+    <ul class="project-bullets">
+      <li>Designed multi-stage attenuator topology for fine-grained RF signal control.</li>
+      <li>Optimized for linearity and minimal signal distortion across frequency bands.</li>
+      <li>Fabricated and characterized prototype circuits for validation.</li>
+      <li>Presented at IEEE CIIS 2026.</li>
+    </ul>
+    <div class="project-tags">
+      <span class="ptag">RF Design</span>
+      <span class="ptag">Wireless Communications</span>
+      <span class="ptag">Hardware</span>
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <span>Last updated: Aug 2026</span>
+    <span>Personal academic homepage powered by GitHub Pages.</span>
+  </div>
+</footer>
+
+
+</body>
+</html>
