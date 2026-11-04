@@ -788,3 +788,10 @@ body{line-height:1.75}
 .site-footer{background:#f0f4f8;border-top:1px solid var(--border);padding:22px 0}
 @media(max-width:768px){.navbar{height:58px}.nav-links{top:58px}.main-content{margin:24px auto;gap:18px}.profile-sidebar{width:100%;min-width:0}.profile-photo{height:270px;aspect-ratio:auto;object-position:center 30%}.focus-grid{grid-template-columns:1fr}.pub-page-main{margin:30px auto}.page-intro .page-title{font-size:32px}}
 @media(max-width:480px){.card{padding:21px}.about-card{padding:25px}.about-card .card-title{font-size:25px}.pub-full-item{flex-direction:row;gap:13px;padding:16px}.pub-full-thumb{width:70px!important;height:70px;flex:0 0 70px}.pub-full-thumb .pub-thumb-placeholder.large,.pub-full-thumb img{width:70px!important;height:70px!important;max-width:70px!important}.pub-full-info .pub-title{font-size:14px}.pub-meta{font-size:11px}.pub-category{font-size:15px}.page-intro .page-title{font-size:30px}.project-card{padding:0 18px 20px}.project-visual{margin:0 -18px 20px}}
+
+/* Compact social icons, matching the supplied reference */
+.profile-icon-links{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:15px;padding:0 16px;margin-top:18px}
+.profile-icon-links .profile-link{display:inline-flex;align-items:center;justify-content:center;width:31px;height:31px;padding:0;color:#687b90;font-size:20px;line-height:1;border-radius:5px;word-break:normal;transition:color .2s,background .2s,transform .2s}
+.profile-icon-links .profile-link i{font-size:20px}
+.profile-icon-links .profile-link:hover{color:#12699b;background:#edf6fb;transform:translateY(-2px)}
+.profile-icon-links .profile-link:focus-visible{outline:2px solid #12699b;outline-offset:3px}
