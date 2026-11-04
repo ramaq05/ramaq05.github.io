@@ -795,3 +795,7 @@ body{line-height:1.75}
 .profile-icon-links .profile-link i{font-size:20px}
 .profile-icon-links .profile-link:hover{color:#12699b;background:#edf6fb;transform:translateY(-2px)}
 .profile-icon-links .profile-link:focus-visible{outline:2px solid #12699b;outline-offset:3px}
+
+/* Keep all four profile social icons on one horizontal line. */
+.profile-sidebar .profile-icon-links{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:center!important;gap:14px!important;width:100%;padding:0 12px}
+.profile-sidebar .profile-icon-links .profile-link{display:inline-flex!important;flex:0 0 30px!important;width:30px!important;min-width:30px!important;height:32px!important;white-space:nowrap}
