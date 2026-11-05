@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="Autonomous driving system: localization, mapping, perception, machine learning, dispatch and routing, planning, networking and controls">
+<rect width="1200" height="500" fill="#fff"/>
+<defs><linearGradient id="blue" x2="1" y2="1"><stop stop-color="#bcdcff"/><stop offset="1" stop-color="#659fe8"/></linearGradient><linearGradient id="orange" x2="1" y2="1"><stop stop-color="#ffe0bc"/><stop offset="1" stop-color="#ffa13c"/></linearGradient><linearGradient id="gray" x2="0" y2="1"><stop stop-color="#bfc2c7"/><stop offset="1" stop-color="#e2e5e9"/></linearGradient></defs>
+<path d="M15 192L225 218V282L15 310Z" fill="#75baf3"/>
+<rect x="165" y="100" width="410" height="300" rx="100" fill="#f8caa7"/>
+<rect x="220" y="165" width="350" height="170" rx="62" fill="url(#orange)"/>
+<path d="M775 185L1170 95V405L775 315Z" fill="url(#gray)"/>
+<rect x="730" y="172" width="330" height="155" rx="77" fill="#d5e7f7"/>
+<rect x="725" y="172" width="165" height="155" rx="75" fill="#82a7e3"/>
+<rect x="475" y="62" width="335" height="132" rx="62" fill="#a9c3e8"/>
+<rect x="475" y="306" width="335" height="132" rx="62" fill="#a9c3e8"/>
+<rect x="476" y="184" width="334" height="135" rx="24" fill="#fff"/>
+<g transform="translate(505 204)"><path d="M20 67L57 23Q72 10 107 10H225Q248 10 263 29L286 65L286 91H10V76Z" fill="#f7f9fc" stroke="#6c7f91" stroke-width="4"/><path d="M82 20H222Q241 20 254 46L263 61H57Z" fill="#a8d2ed" stroke="#637d91" stroke-width="3"/><path d="M150 21V61" stroke="#637d91" stroke-width="4"/><circle cx="70" cy="91" r="26" fill="#fff" stroke="#526575" stroke-width="6"/><circle cx="237" cy="91" r="26" fill="#fff" stroke="#526575" stroke-width="6"/><path d="M113 61V42L125 31L140 42V61M176 61V42L189 31L203 42V61" fill="#3b5878"/><circle cx="128" cy="28" r="10" fill="#dcae8e"/><circle cx="190" cy="28" r="10" fill="#dcae8e"/></g>
+<g font-family="Arial,Helvetica,sans-serif" fill="#15243d" font-weight="700" text-anchor="middle">
+<text x="113" y="260" font-size="21">Localization</text><text x="345" y="143" font-size="23">Mapping</text><text x="350" y="258" font-size="27">Perception</text><text x="643" y="120" font-size="25">Machine Learning</text><text x="643" y="382" font-size="23">Dispatch &amp; Routing</text><text x="832" y="258" font-size="20">Planning</text><text x="982" y="258" font-size="20">Networking</text><text x="1113" y="258" font-size="20">Controls</text></g></svg>
